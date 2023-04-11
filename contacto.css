@@ -1,0 +1,195 @@
+cuerpo {
+    fondo-color: gris claro;
+    font-family: 'Montserrat', serif;
+        tamaño de fuente: 30px;
+}
+
+. contenedor-de-encabezado {
+    fondo-color: blanco;
+    borde: sólido 2px gris oscuro;
+    Radio de borde: 2EM;
+    Margin-top: 20px;
+}
+
+#bienvenida {
+    color: #423B39;
+    tamaño de fuente: 70px;
+}
+
+. contenedor-de-encabezado . titulo {
+    color: #FF002F;
+    tamaño de fuente: 40px;
+    font-weight: 800;
+
+}
+. contenedor-de-encabezado . Menú de navegación {
+    Pantalla: Flex;
+    flex-wrap: envoltura;
+    align-items: centro;
+}
+. contenedor-de-encabezado . Menú A {
+    
+    color: negro;
+    familia de fuentes: Helvetica;
+    tamaño de fuente: 25px;
+    decoración de texto: ninguno;
+    relleno: 12 px 18 px;
+    
+}
+. contenedor-de-encabezado . Menú A:Pasar el cursor {
+    borde-abajo: 1px negro punteado;
+}
+
+. tarjeta-idioma {
+    Ancho máximo: 25rem;
+    margin-top: 5%;
+}
+#Bandera-Corea {
+    Anchura: 50px;
+    altura:50px;
+}
+
+#Bandera-Japón {
+    Anchura: 50px;
+    Altura: 50px;
+}
+. parte-idioma {
+    tamaño de fuente: 30px;
+    font-weight: 600;
+    Color: #0C0002;
+}
+. Parte-Staff{
+    tamaño de fuente: 30px;
+    font-weight: 600;
+    Color: #0C0002
+}
+. employee__card {
+    Pantalla: Flex;
+    justificar-contenido: centro;
+    align-items: centro;
+    dirección flexible: columna;
+    borde: 1px sólido #FF002F;
+    Radio de borde: 25px;
+    Margen: 3%;
+    Fondo: degradado lineal (hasta abajo, #A38106, #F0F0F0);
+    Sombra de caja: 15 px -15 px 27 px 4 px rgba(0,0,0,0.72);
+-webkit-box-shadow: 15 px -15 px 27 px 4 px rgba(0,0,0,0.72);
+-moz-box-shadow: 15 px -15 px 27 px 4 px rgba(0,0,0,0.72);
+}
+
+. employee__card:pasar el cursor {
+    Escala: 120%;
+    cursor: puntero;
+}
+
+. employee__avatar {
+    Anchura: 180px;
+    Margen: Auto 40px;
+}
+
+. employee__fullName {
+    Margin-top: 10px;
+    alineación de texto: centro;
+
+}
+
+. employee__position {
+
+    alineación de texto: centro;
+    Margin-top: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Raleway:ital,wght@1,400;1,500;1,600 & display=swap');
+
+. forma{
+    relleno: 30 px 80 px;
+    margen: automático;
+    Margin-top: 150px;
+    Radio de borde: 25px;
+   
+}
+
+. forma{
+
+    relleno: 30 px 80 px;
+    Ancho: 100%;
+    Pantalla: Flex;
+    dirección flexible: columna;
+   
+}
+. Formulario H2 {
+    tamaño de fuente: 45px;
+    Color: #F12805;
+    Grosor de fuente: 600px;
+    Margen inferior: 25px; 
+
+}
+. Form P {font-size: 16px;
+Color: #050608;
+Margen inferior: 25px;
+
+}
+label{font-size: 15px;
+    Color: #050608;
+    Margen inferior: 15px;}
+
+ . caja {
+        borde: 0;
+        fondo-color: #F4F4FD;
+        Acolchado: 15px;
+        Radio de borde: 25px;
+        Margen inferior: 15px;
+        esquema: ninguno;
+    }
+ . Enviar{
+        fondo-color: #F12805;
+        borde: 0;
+        Acolchado: 15px;
+        Color: #FFF;
+        tamaño de fuente: 16px;
+        Radio de borde: 25px;
+        Anchura: 250px;
+        Margin-top: 25px;
+        Sombra de caja: 0 0 20px rgba(201, 199,   253, 0.5 )
+    }
+ . información{
+        Acolchado: 50px;
+    
+    }
+ . imagen-3{
+        Anchura: 350px;
+        Acolchado: 75px;
+    }
+ . ubicación{
+        Pantalla: Flex;
+        dirección flexible: columna;
+        Margen inferior: 30px;
+ }
+ . Iconos {
+        Pantalla: Flex;
+        Margen inferior: 31px;
+    }
+ . iconos img {
+        Anchura: 40px;
+        Margen derecho: 10px;
+    }
+ . iconos p {
+        tamaño de fuente: 14px;
+        Color: #050608;
+     }
+ . social {
+        Pantalla: Flex;
+     }
+ . social {
+        Anchura: 50px;
+        Margen derecho: 30px;
+     }
+     @media(max-width:990px){
+ . información {
+            Pantalla: ninguna;
+        }
+ . forma {
+            Anchura: 100px;
+            Acolchado: 30px;
+        }
+     }
